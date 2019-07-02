@@ -266,10 +266,10 @@
         </div>
         <div class="col-md-4">
           <div class="contact-form">
-              <form>
+              <form action="php/mail.php" method="POST">
                   <div class="form-group">
                     <label for="tel_input">Оставьте свой номер телефона <br>и я вам перезвоню</label>
-                    <input type="tel" class="form-control" id="tel_input" aria-describedby="tel_input" placeholder="Введите свой номер телефона">
+                    <input type="tel" class="form-control" id="tel_input" aria-describedby="tel_input" name="tel" placeholder="Введите свой номер телефона">
                   </div>
                   <button type="submit" class="btn btn-primary">Отправить</button>
                 </form>
